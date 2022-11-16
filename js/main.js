@@ -33,7 +33,7 @@ function scomparsaNumeri() {
     let counter = 0;
     setTimeout(askNum, 500);
 
-    for (let j = 0; j < array.length; j++) {
+    for (let j = 0; j <= 5; j++) {
         function askNum() {
             let  numInserito = prompt("inserisci un numero");
             if (numInserito==0) {
